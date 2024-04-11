@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html body{
+    height: 1005px;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(183, 175, 175);
+    position: relative;
+}
+#nav{
+    height: 90px;
+    padding: 0 50px, ;
+    width: 100%;
+    display: flex;align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 110px;
+
+}
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-prt1 h4{
+    margin-right: 50px;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 600;
+}
+#nav-prt2 i{
+    margin-right: 50px;
+    font-size: 19px;
+    padding: 20px;
+    font-weight: 600;
+}
+#content{
+    width: 100%;
+    height: calc(100% - 90px);
+   
+    display: flex;
+    position: relative;
+    
+}
+#left{
+    height: 100%;
+    width: 40%;
+    padding: 120px 100px;
+}
+#left h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgba(76, 89, 89, 0.865);
+}
+#left h1{
+    font-size: 65px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+#left p{
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 30px;
+}
+#left button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-top-left-radius: 0px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+#right{
+    width: 60%;
+    height: 100%;
+ 
+    position: relative;
+    padding: 150px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+
+}
+
+
+.elem{
+    height: 484px;
+    width: 249px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 25px;
+}
+.elem img{
+    height: 31%;
+    width: 100%;
+    top: 25%;
+    object-fit: cover;
+    position: absolute;
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(183, 175, 175);
+    padding: 16px 28px;
+    border-radius: 6px;
+}
+.elem h5{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    background-color: black;
+    color: #fff;
+    padding: 16px 28px;
+    border-radius: 6px;
+}
